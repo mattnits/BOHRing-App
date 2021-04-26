@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bohringapp" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".enrollment.CreateCourseActivity"></activity>
+        <activity android:name=".calendar.TodoActivity"></activity>
+        <activity android:name=".loginHome.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".loginHome.HelpActivity" />
+        <activity android:name=".AddTodoActivity" />
+        <activity android:name=".CP164MailingListActivity" />
+        <activity android:name=".CP164Activity" />
+        <activity android:name=".calendar.TodoActivity" />
+        <activity android:name=".calendar.AddTodoActivity" />
+        <activity android:name=".CP104_programingStandards" />
+        <activity android:name=".CP104_Activity" />
+        <activity android:name=".enrollment.EnrollmentActivity" />
+        <activity android:name=".enrollment.AddCourseActivity" />
+        <activity android:name=".courseContent.CourseContent" />
+        <activity android:name=".courseContent.CourseActivity" />
+        <activity android:name=".calendar.CalendarActivity" />
+        <activity android:name=".loginHome.HelpActivity"></activity>
+        <activity android:name=".AddTodoActivity" />
+        <activity android:name=".CP164MailingListActivity" />
+        <activity android:name=".CP164Activity" />
+        <activity android:name=".CP104_programingStandards" />
+        <activity android:name=".CP104_Activity" />
+        <activity android:name=".EnrollmentActivity" />
+        <activity android:name=".CourseContentActivity" />
+        <activity android:name=".CalendarActivity" />
+        <activity android:name=".loginHome.HomeActivity">
+
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Bohring App</string>
+    <string name="searchText">Enter course code</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="navbartitle">Navigation</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="errText">Error: username must only contain integers</string>
+    <string name="enterUsername">Enter StudentID: </string>
+    <string name="username">Enter Username</string>
+    <string name="login">Login</string>
+    <string name="loginAdmin">Admin Login</string>
+    <string name="hello_world">Hello Square World!</string>
+    <string name="author">Authors</string>
+    <string name="authors">Levi Aviv, Matthew Nitsopoulos, Jake Marasovic, Ross Malcolm, Chris Karlin</string>
+    <string name="version">Version</string>
+    <string name="versions">0.1</string>
+    <string name="generalTitle">General: </string>
+    <string name="generalText">To navigate throughout the app, please use the buttons presented on the screen to navigate to the required location. If you would like to return to the previous
+        page please press the back button on your device. </string>
+    <string name="homeTitle">Home: </string>
+    <string name="homeText">To navigate to the calendar where you can see and edit your schedule, please press Calendar. To navigate to course content where you can see all your courses
+        and their respective pages, please press Course Content. To navigate to enrollment where you can add and drop courses, please press Enrollment.</string>
+    <string name="toolbarTitle">Toolbar: </string>
+    <string name="toolbarText">To enter the toolbar press the hamburger icon in the top left corner of your screen. Here you can find quick navigation links to all pages in the app. To navigate
+        between pages, you can click the more button to enter a new page and click the back button on your phone to return to the previous page. To exit, you may
+        click on the space outside of the toolbar or if you are on the home page of the toolbar, you may click the back button on your device.For more information on each
+        page, please read below for more detailed instructions.</string>
+    <string name="courseCalendarTitle">Calendar</string>
+    <string name="courseCalendarHelpTitle">Calendar:</string>
+    <string name="courseCalendarText">To see a list of todo items for each course navigate to the Calendar section. The Calendar section has a list of todo items, though it will initially be empty.
+        \n\n
+        To add a new todo item, press the ADD TODO ITEM button (Note: You must be enrolled in at least one course to add a todo item). Once pressed you will be able to choose the course you want to add the todo item to by selecting a course from the spinner, add a title to the todo item, add a description to the todo item, and add a due date by pressing the Enter Due Date text. The required fields to save a todo item are Course, Title, and Due Date. Once those fields have been filled press the SAVE button to return to the Calendar section.
+        \n\n
+        To edit a todo item, long press the todo item you want to edit. The input fields are identical to adding a todo item.
+        \n\n
+        To delete a todo item, long press the todo item and select the DELETE button. You will be asked to confirm this decision, select YES if you wish to delete the selected todo item
+        \n\n
+        To view a todo item’s details, short press the todo item.
+        \n\n
+        To mark a todo item as complete press the checkbox to the right of the todo item in the Calendar section.
+        \n\n
+        To view completed todo items, select the Show Completed Tasks checkbox at the bottom of the Calendar section.
+</string>
+    <string name="courseContentTitle">Course Content</string>
+    <string name="courseContentHelpTitle">Course Content:</string>
+    <string name="courseContentText">The course content page is used to show the user all of the courses they are currently enrolled in to view a courses website press the button of the course you want to see. \n\nTo filter the course list type the course
+        code that you want to see and the list will be updated to only display those courses. If in admin mode an edit button appears beside the course name where you can edit the URL to
+        update the database so that when students press the button it will take them to the new URL.\n\nTo navigate between the different sections within the course\'s website use the buttons
+        on the bottom of the screen.
+
+
+
+    </string>
+    <string name="courseEnrollmentTitle">Enrollment</string>
+    <string name="courseEnrollmentHelpTitle">Enrollment:</string>
+    <string name="courseEnrollmentText">To see a the list of enrolled courses, enroll to or drop courses navigate to the enrollment section by clicking the Enrollment button on the Home page or by using the navigation toolbar.
+        \n\n
+        Here, you may long press a course item displayed to open up a detailed view of the selected course. Use the dropdown list shown to select a new color and click the OK to confirm the change or Cancel to discard and close the dialogue.
+        \n\n
+        You may also drop a course by clicking the Drop button on the detailed view, which will remove the course from your enrolled list, as well as any todo items associated with it.
+        \n\nTo add courses, you may click the Add Course button
+        which will bring you into another view, that displays all courses available that the you are not already enrolled in. Here, you may select none, one or many courses and click Add to be brought back to the previous view. If you selected
+        any courses you will be automatically enrolled and they appear in your list of enrolled courses.
+        \n\n
+        Admin only: As admin user you have the additional ability to create new courses, change the name of existing courses or to delete existing courses for all users.
+        \n\n
+        To create a new course simply click the Create Course button on the bottom of the course. This will bring you to a new page, which has two text boxes for you to enter a course code and course name. The application enforces that both boxes are filled in before continuing with clicking Create. It also checks that the course you are
+        creating is not existing already and inform you of this.
+        \n\n
+        To cancel and go back to the previous view, click cancel or the back button of your device.
+        \n\n
+        To change the name of an existing course you may enter a new field in the text box that is displayed in the detailed view of the course. To delete a course you may click the delete course button displayed in the detailed view as well.</string>
+    <string name="warnMessage">Warning, user is already registered as a non admin</string>
+    <string name="warnMessage2">Warning, user is already registered as an admin</string>
+    <string name="calendar">Calendar</string>
+    <string name="courseContent">Course Content</string>
+    <string name="enrollment">Enrollment</string>
+    <string name="help">Help</string>
+    <string name="logout">Logout</string>
+    <string name="more">More</string>
+    <string name="welcomeMessage">Welcome to the Bohring App!</string>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/todo_list_colour"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="5dp"/>
+
+    <TextView
+        android:id="@+id/todo_list_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/todo_list_colour"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/todo_list_courseCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/todo_list_title"
+        android:layout_toRightOf="@id/todo_list_colour"/>
+
+    <TextView
+        android:id="@+id/todo_list_dueDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/todo_list_courseCode"
+        android:layout_toRightOf="@id/todo_list_colour"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/todo_list_completed"
+        android:layout_centerVertical="true"
+        android:text="@string/completed"
+        android:textStyle="bold"
+        />
+
+    <CheckBox
+        android:id="@+id/todo_list_completed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:focusable="false"/>
+</RelativeLayout>

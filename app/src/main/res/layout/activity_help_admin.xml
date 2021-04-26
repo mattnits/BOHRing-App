@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginHome.HomeActivity"
+    android:id="@+id/dl_drawer_layout">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/studentHelpLayout"
+        android:visibility="visible">
+        <TextView
+            android:id="@+id/helpTextAuthorTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/author"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/helpTextAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/authors"
+            android:layout_below="@id/helpTextAuthorTitle"
+            />
+        <TextView
+            android:id="@+id/helpTextVersionTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/version"
+            android:textSize="20dp"
+            android:layout_below="@id/helpTextAuthor"/>
+        <TextView
+            android:id="@+id/helpTextVersion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/versions"
+            android:layout_below="@id/helpTextVersionTitle"/>
+        <TextView
+            android:id="@+id/helpTextMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="test"
+            android:layout_below="@id/helpTextVersion"/>
+    </RelativeLayout>
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/nv_navView"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="false"
+        app:headerLayout="@layout/main_header"
+        app:menu="@menu/drawer_menu"/>
+
+
+</RelativeLayout >

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_course_code">Enter Course Code</string>
+    <string name="edit">Edit</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="edit_course">Edit the course link</string>
+    <string name="course_link">Course link has changed to</string>
+    <string name="success">Successfully loaded courses</string>
+    <string name="no_courses" >No courses to load</string>
+    <string name="no_c_available">No Courses Available</string>
+</resources>

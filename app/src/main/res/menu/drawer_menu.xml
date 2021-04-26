@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/calendar">
+        <menu>
+            <item android:id="@+id/menuCalendar"
+                android:icon="@drawable/calendar"
+                android:title="@string/calendar"
+                />
+        </menu>
+    </item>
+
+    <item android:title="@string/courseContent">
+        <menu>
+            <item android:id="@+id/menuCourseContent"
+                android:icon="@drawable/course_content"
+                android:title="@string/courseContent"/>
+            <item android:id="@+id/moreMenuCourseContent"
+                android:icon="@drawable/more"
+                android:title="More"/>
+        </menu>
+    </item>
+    <item android:title="@string/enrollment">
+        <menu>
+            <item android:id="@+id/menuEnrollment"
+                android:icon="@drawable/enrollment"
+                android:title="@string/enrollment"/>
+
+        </menu>
+    </item>
+    <item android:title="@string/help">
+        <menu>
+            <item android:id="@+id/menuHelp"
+                android:icon="@drawable/help"
+                android:title="@string/help"/>
+        </menu>
+    </item>
+    <item android:title="@string/logout">
+        <menu>
+            <item android:id="@+id/menuLogout1"
+                android:icon="@drawable/door"
+                android:title="@string/logout"/>
+        </menu>
+    </item>
+
+</menu>

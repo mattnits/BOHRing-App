@@ -1,0 +1,35 @@
+<resources>
+    <string-array name="colours">
+        <item>Black</item>
+        <item>Dark Gray</item>
+        <item>Gray</item>
+        <item>Light Gray</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+        <item>Cyan</item>
+        <item>Magenta</item>
+    </string-array>
+    <string name="AddCourseHeaderEnrollment">Select courses to add:</string>
+    <string name="AddButtonEnrollment">Add</string>
+    <string name="EnrollmentHeaderEnrollment">Enrolled courses:</string>
+    <string name="AddCourseButtonEnrollment">Add Course</string>
+    <string name="CreateCourseButtonEnrollment">Create Course</string>
+    <string name="ChangeNameButtonEnrollment">Change name</string>
+    <string name="DeleteButtonEnrollment">Delete Course</string>
+    <string name="CourseCodeTextEnrollment">Course Code:</string>
+    <string name="CourseNameTextEnrollment">Course Name:</string>
+    <string name="CreateButton">Create</string>
+    <string name="CancelButton">Cancel</string>
+    <string name="OkButton">OK</string>
+    <string name="DropCourseButton">Drop course</string>
+    <string name="DroppedMsg">"Successfully dropped "</string>
+    <string name="MissingCourseNameMsg">Course Name required</string>
+    <string name="MissingCourseCodeNameMsg">"Course Code and Course Name required"</string>
+    <string name="AddedMsg1">"Successfully added "</string>
+    <string name="AddedMsg2">" course(s):\n"</string>
+    <string name="UpdateFailure">Unexpected failure updating DB</string>
+    <string name="InsertFailure">Duplicate Key: Row already exists in DB</string>
+    <string name="DeleteFailure">Unexpected delete failure DB</string>
+</resources>

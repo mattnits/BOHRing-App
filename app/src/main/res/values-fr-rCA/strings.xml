@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="colours">
+        <item>Noir</item>
+        <item>Gris foncé</item>
+        <item>Gris</item>
+        <item>Gris clair</item>
+        <item>Rouge</item>
+        <item>Vert</item>
+        <item>Bleu</item>
+        <item>Jaune</item>
+        <item>Cyan</item>
+        <item>Magenta</item>
+    </string-array>
+    <string name="AddCourseHeaderEnrollment">Sélectionnez les cours à ajouter:</string>
+    <string name="AddButtonEnrollment">Ajouter</string>
+    <string name="EnrollmentHeaderEnrollment">Cours inscrits:</string>
+    <string name="AddCourseButtonEnrollment">Ajouter un cours</string>
+    <string name="CreateCourseButtonEnrollment">Créer un cours</string>
+    <string name="ChangeNameButtonEnrollment">Changer de nom</string>
+    <string name="DeleteButtonEnrollment">Supprimer le cours</string>
+    <string name="CourseCodeTextEnrollment">Code de cours:</string>
+    <string name="CourseNameTextEnrollment">om du cours:</string>
+    <string name="CreateButton">Créer</string>
+    <string name="CancelButton">Annuler</string>
+    <string name="OkButton">D\'accord</string>
+    <string name="DropCourseButton">Cours d\'abandon</string>
+    <string name="DroppedMsg">Lâché avec succès </string>
+    <string name="MissingCourseNameMsg">Nom du cours requis</string>
+    <string name="MissingCourseCodeNameMsg">Code et nom du cours requis</string>
+    <string name="AddedMsg1">Ajouté avec succès </string>
+    <string name="AddedMsg2"> cours:\n</string>
+    <string name="UpdateFailure">Échec inattendu de la mise à jour de la base de données</string>
+    <string name="InsertFailure">Clé en double: la ligne existe déjà dans la base de données</string>
+    <string name="DeleteFailure">DB d\'échec de suppression inattendu</string>
+    <string name="add_todo_item">Ajouter un élément Todom</string>
+    <string name="completed">Terminé</string>
+    <string name="title">Titre:</string>
+    <string name="description">La description:</string>
+    <string name="due_date">Date d\'échéance:</string>
+    <string name="enter_due_date">Entrez la date d\'échéance</string>
+    <string name="save">Sauvegarder</string>
+    <string name="loadDbSnack">Chargé depuis la base de données</string>
+    <string name="course">Cours:</string>
+    <string name="markedAsCompleted">Toggled Terminé</string>
+    <string name="show_completed_tasks">Afficher les tâches terminées</string>
+    <string name="errText">Erreur: le nom d\'utilisateur ne doit contenir que des entiers</string>
+    <string name="enterUsername">Entrez StudentID:</string>
+    <string name="username">Saisissez votre nom d\'utilisateur</string>
+    <string name="login">S\'identifier</string>
+    <string name="loginAdmin">Connexion administrateur</string>
+    <string name="hello_world">Bonjour Square World!</string>
+    <string name="author">Auteurs</string>
+    <string name="authors">Levi Aviv, Matthew Nitsopoulos, Jake Marasovic, Ross Malcolm, Chris Karlin</string>
+    <string name="version">Version</string>
+    <string name="versions">0.1</string>
+    <string name="generalTitle">Général:</string>
+    <string name="generalText">Pour naviguer dans l\'application, veuillez utiliser les boutons présentés à l\'écran pour accéder à l\'emplacement souhaité. Si vous souhaitez revenir à la précédente
+        page veuillez appuyer sur le bouton retour de votre appareil. </string>
+    <string name="homeTitle">Accueil: </string>
+    <string name="homeText">Pour accéder au calendrier où vous pouvez voir et modifier votre programme, veuillez appuyer sur Calendrier. Pour accéder au contenu du cours où vous pouvez voir tous vos cours
+        et leurs pages respectives, veuillez appuyer sur Contenu du cours. Pour accéder à l\'inscription où vous pouvez ajouter et supprimer des cours, appuyez sur Inscription.</string>
+    <string name="toolbarTitle">Barre d\'outils: </string>
+    <string name="toolbarText">Pour accéder à la barre d\'outils, veuillez appuyer sur l\'icône hamburger dans le coin supérieur gauche de votre écran. Vous trouverez ici des liens de navigation rapides vers toutes les pages de l\'application. Naviguer
+        entre les pages, vous pouvez cliquer sur le bouton Plus pour ouvrir une nouvelle page et cliquer sur le bouton Retour de votre téléphone pour revenir à la page précédente. Pour sortir, vous pouvez
+        cliquez sur l\'espace en dehors de la barre d\'outils ou si vous êtes sur la page d\'accueil de la barre d\'outils, vous pouvez cliquer sur le bouton retour de votre appareil. Pour plus d\'informations sur chaque
+        page, veuillez lire ci-dessous pour des instructions plus détaillées.</string>
+    <string name="courseEnrollmentTitle">Inscription</string>
+    <string name="courseEnrollmentText">Pour afficher la liste des cours inscrits, vous inscrire ou abandonner des cours, accédez à la section d\'inscription en cliquant sur le bouton Inscription sur la page d\'accueil ou en utilisant la barre d\'outils de navigation.
+        \n\n
+        Ici, vous pouvez appuyer longuement sur un élément de cours affiché pour ouvrir une vue détaillée du cours sélectionné. Utilisez la liste déroulante affichée pour sélectionner une nouvelle couleur et cliquez sur OK pour confirmer le changement ou sur Annuler pour annuler et fermer la boîte de dialogue.
+        \n\n
+        Vous pouvez également supprimer un cours en cliquant sur le bouton Déposer dans la vue détaillée, ce qui supprimera le cours de votre liste d\'inscription, ainsi que tous les éléments à faire qui lui sont associés.
+        \n\n
+        Pour ajouter des cours, vous pouvez cliquer sur le bouton Ajouter un cours
+        qui vous amènera dans une autre vue, qui affiche tous les cours disponibles auxquels vous n\'êtes pas déjà inscrit. Ici, vous pouvez sélectionner aucun, un ou plusieurs cours et cliquer sur Ajouter pour revenir à la vue précédente. Si vous avez sélectionné
+        tous les cours auxquels vous serez automatiquement inscrit et ils apparaissent dans votre liste de cours inscrits.
+        \n\n
+        Administrateur uniquement: en tant qu\'utilisateur administrateur, vous avez la possibilité supplémentaire de créer de nouveaux cours, de modifier le nom de cours existants ou de supprimer des cours existants pour tous les utilisateurs.
+        \n\n
+        Pour créer un nouveau cours, cliquez simplement sur le bouton Créer un cours en bas du cours. Cela vous amènera à une nouvelle page, qui a deux zones de texte pour vous permettre de saisir un code de cours et un nom de cours. L\'application impose que les deux cases soient remplies avant de continuer en cliquant sur Créer. Il vérifie également que le cours que vous
+        la création n\'existe pas déjà et vous en informer.
+        \n\n
+        Pour annuler et revenir à la vue précédente, cliquez sur Annuler ou sur le bouton Retour de votre appareil.
+        \n\n
+        Pour changer le nom d\'un cours existant, vous pouvez entrer un nouveau champ dans la zone de texte qui s\'affiche dans la vue détaillée du cours. Pour supprimer un cours, vous pouvez également cliquer sur le bouton Supprimer le cours affiché dans la vue détaillée.</string>
+    <string name="courseCalendarTitle">Calendrier</string>
+    <string name="courseCalendarHelpTitle">Calendrier:</string>
+    <string name="courseContentTitle">Le contenu des cours</string>
+    <string name="courseContentHelpTitle">Le contenu des cours:</string>
+
+    <string name="courseContentText">La page du contenu du cours est utilisée pour montrer à l\'utilisateur tous les cours auxquels il est actuellement inscrit pour afficher un site Web de cours, appuyez sur le bouton du cours que vous souhaitez voir. \n\nPour filtrer la liste des cours, saisissez le cours
+        code que vous souhaitez voir et la liste sera mise à jour pour n\'afficher que ces cours. Si en mode administrateur, un bouton d\'édition apparaît à côté du nom du cours où vous pouvez modifier l\'URL à
+        mettre à jour la base de données afin que lorsque les étudiants appuient sur le bouton, cela les amène à la nouvelle URL. \n\nPour naviguer entre les différentes sections du site Web du cours, utilisez les boutons
+        en bas de l\'écran.</string>
+    <string name="courseEnrollmentHelpTitle">Inscription:</string>
+
+    <string name="warnMessage">Attention, l\'utilisateur est déjà enregistré en tant que non administrateur</string>
+    <string name="warnMessage2">Attention, l\'utilisateur est déjà enregistré en tant qu\'administrateur</string>
+    <!-- -->
+    <string name="app_name">Bohring App</string>
+    <string name="searchText">Entrez le code du cours</string>
+    <string name="open">ouvert</string>
+    <string name="close">proche</string>
+    <string name="navbartitle">La navigation</string>
+    <string name="title_activity_help">AideActivité</string>
+
+    <string name="enter_course_code">Entrez le code du cours</string>
+    <string name="edit">Éditer</string>
+    <string name="ok">D\'accord</string>
+    <string name="cancel">Annuler</string>
+    <string name="cancelled">Annulé</string>
+    <string name="edit_course">Modifier le lien du cours</string>
+    <string name="course_link">Le lien du cours est devenu</string>
+    <string name="success">Cours chargés avec succès</string>
+    <string name="no_courses" >Aucun cours à charger</string>
+    <string name="no_c_available">Aucun cours disponible</string>
+
+
+
+    <string name="todo_delete_todo_item">Supprimer l\'élément Todo?</string>
+    <string name="todo_confirm">Oui</string>
+    <string name="todo_decline">Non</string>
+    <string name="DeleteButtonTodo">Supprimer</string>
+    <string name="invalid_input_todo">Le titre et la date d\'échéance sont des entrées obligatoires!</string>
+    <string name="todo_no_courses">Vous devez vous inscrire à un cours avant d\'ajouter des éléments à faire</string>
+
+    <string name="courseCalendarText">Pour afficher la liste des tâches à effectuer pour chaque cours, accédez à la section Calendrier. La section Calendrier contient une liste d\'éléments à faire, même si elle sera initialement vide.
+    \ n \ n
+    Pour ajouter un nouvel élément à faire, appuyez sur le bouton AJOUTER TODO ITEM (Remarque: vous devez être inscrit à au moins un cours pour ajouter un élément à faire). Une fois pressé, vous pourrez choisir le cours auquel vous voulez ajouter l\'élément à faire en sélectionnant un cours dans la double flèche, ajouter un titre à l\'élément à faire, ajouter une description à l\'élément à faire et ajouter une date d\'échéance en appuyant sur le bouton Saisissez le texte de la date d\'échéance. Les champs obligatoires pour enregistrer un élément à faire sont Cours, Titre et Date d\'échéance. Une fois ces champs remplis, appuyez sur le bouton ENREGISTRER pour revenir à la section Calendrier.
+    \ n \ n
+    Pour modifier un élément de tâche, appuyez longuement sur l\'élément de tâche que vous souhaitez modifier. Les champs de saisie sont identiques à l\'ajout d\'un élément todo.
+    \ n \ n
+    Pour supprimer un élément todo, appuyez longuement sur l\'élément todo et sélectionnez le bouton DELETE. Il vous sera demandé de confirmer cette décision, sélectionnez OUI si vous souhaitez supprimer l\'élément à faire sélectionné
+    \ n \ n
+    Pour afficher les détails d\'un élément à faire, appuyez brièvement sur l\'élément à faire.
+    \ n \ n
+    Pour marquer un élément à faire comme terminé, appuyez sur la case à cocher à droite de l\'élément à faire dans la section Calendrier.
+    \ n \ n
+        Pour afficher les tâches terminées, cochez la case Afficher les tâches terminées en bas de la section Calendrier.</string>
+
+    <string name="calendar">Calendrier</string>
+    <string name="courseContent">Le contenu des cours</string>
+    <string name="enrollment">Inscription</string>
+    <string name="help">Aidez-moi</string>
+    <string name="logout">Se déconnecter</string>
+    <string name="more">Plus</string>
+    <string name="welcomeMessage">Bienvenue sur l\'application Bohring!</string>
+
+</resources>

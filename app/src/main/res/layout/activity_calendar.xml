@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginHome.HomeActivity"
+    android:id="@+id/dl_drawer_layout">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".calendar.CalendarActivity">
+
+        <ProgressBar
+            android:id="@+id/calendar_progress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <ListView
+            android:id="@+id/master_todo_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            />
+
+        <Button
+            android:id="@+id/add_todo_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="addTodoItemClicked"
+            android:layout_alignTop="@id/show_completed"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-50dp"
+            android:text="@string/add_todo_item" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/show_completed"
+            android:layout_alignBaseline="@id/show_completed"
+            android:text="@string/show_completed_tasks"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/show_completed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:onClick="showCompletedClicked"
+            android:layout_centerHorizontal="true"
+            />
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/nv_navView"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="false"
+        app:headerLayout="@layout/main_header"
+        app:menu="@menu/drawer_menu"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

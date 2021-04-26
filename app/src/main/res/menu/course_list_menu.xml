@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Courses"
+        android:id="@+id/CoursesMenuItem">
+        <menu>
+            <item android:id="@+id/menuCP104"
+                android:icon="@drawable/square"
+                android:title="CP104"
+                />
+            <item android:id="@+id/menuCP164"
+                android:icon="@drawable/square"
+                android:title="CP164"
+                />
+            <item android:id="@+id/menuCP212"
+                android:icon="@drawable/square"
+                android:title="CP212"
+                />
+            <item android:id="@+id/menuCP264"
+                android:icon="@drawable/square"
+                android:title="CP264"
+                />
+            <item android:id="@+id/menuCP363"
+                android:icon="@drawable/square"
+                android:title="CP363"
+                />
+
+        </menu>
+    </item>
+
+
+</menu>

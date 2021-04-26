@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_todo_item">Add Todo Item</string>
+    <string name="completed">Completed</string>
+    <string name="title">Title:</string>
+    <string name="description">Description:</string>
+    <string name="due_date">Due Date:</string>
+    <string name="enter_due_date">Enter Due Date</string>
+    <string name="save">Save</string>
+    <string name="loadDbSnack">Loaded from database</string>
+    <string name="course">Course:</string>
+    <string name="markedAsCompleted">Toggled Completed</string>
+    <string name="show_completed_tasks">Show Completed Tasks</string>
+    <string name="todo_delete_todo_item">Delete Todo Item?</string>
+    <string name="todo_confirm">Yes</string>
+    <string name="todo_decline">No</string>
+    <string name="DeleteButtonTodo">Delete</string>
+    <string name="invalid_input_todo">Title and DueDate are required inputs!</string>
+    <string name="todo_no_courses">You must enroll in a course before adding todo items</string>
+</resources>

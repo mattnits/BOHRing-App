@@ -1,1 +1,1 @@
-# BOHRing-App
+# CP470-Term-Project
